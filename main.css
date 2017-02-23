@@ -1,0 +1,24 @@
+html
+h1{
+    color:fuchsia;
+    text-align:center;
+}
+p{
+    text-align:center;
+    font-family:Tahoma;
+}
+table{
+    text-align: left;
+    border-color: white;
+}
+th {
+    text-align: center;
+    background-color: grey;
+}
+.greentab tr:nth-child(odd){
+    background:white;
+}
+
+.greentab tr:nth-child(even){
+    background: lawngreen;
+}
